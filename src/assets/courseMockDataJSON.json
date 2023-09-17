@@ -1,0 +1,18 @@
+[
+    {
+        "title" : "React JS COURSE",
+        "authorName" : "Akshai Saini",
+        "description" : "Complete Node course",
+        "price" : "7000 rs",
+        "imageLink" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Zu5VrNVXdm8G7dXCeGSvjNx5FpR0NQJjVQ&usqp=CAU",
+        "published" : "true" 
+    },
+    {
+        "title" : "NODE JS COURSE",
+        "authorName" : "Akshai Saini",
+        "description" : "Complete Node course",
+        "price" : "5000 rs",
+        "imageLink" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAZ3QFXU3xsIphicYUz54h_WNp8xQKm8mMqA&usqp=CAU",
+        "published" : "true" 
+    }
+]
