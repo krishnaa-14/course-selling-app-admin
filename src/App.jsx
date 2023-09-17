@@ -5,26 +5,20 @@ import AdminCourses from "./components/AdminCourses"
 import AdminCourseCard from "./components/AdminCourseCard"
 import AddCourse from "./components/AddCourse"
 import Course from "./components/Course"
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div>
-    { /*
+    <Router>
       <Appbar></Appbar>
-      <Signup></Signup>
-      */
-    }
-
-    {/*<Signup> </Signup> */}
-
-     {  /* <AddCourse> </AddCourse> */}
-
-    {  /*  <AdminCourses> </AdminCourses> */ }
-
-    <Course></Course>
-   
-    </div>
+        <Routes>
+          <Route path="/" element={<Signup />} />
+          <Route path="/signin" element= {<Signin />} />
+          <Route path="/addCourse" element={<AddCourse />} />
+          <Route path="/getCourses" element={<AdminCourses />} />
+        </Routes>
+    </Router>
   )
 }
 
